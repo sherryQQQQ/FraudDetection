@@ -1,0 +1,11 @@
+# Ignore all CSV files
+*.csv
+*.md
+# Ignore specific CSV files if needed
+# data/specific_file.csv
+
+# Ignore CSV files in specific directories but not others
+# !important_csvs/*.csv
+
+# Ignore large data directories if needed
+# data/raw/

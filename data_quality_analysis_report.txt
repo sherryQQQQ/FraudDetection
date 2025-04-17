@@ -1,0 +1,81 @@
+Data Quality Analysis Report
+==================================================
+
+1. Basic Data Quality Checks
+- Number of rows: 786363
+- Number of columns: 24
+- Completely missing columns: ['echoBuffer', 'merchantCity', 'merchantState', 'merchantZip', 'posOnPremises', 'recurringAuthInd']
+
+2. Outlier Analysis
+
+Column: Unnamed: 0
+- IQR method outliers: 0 (0.00%)
+- Z-score method outliers: 0 (0.00%)
+Recommendations:
+  * Moderate number of outliers detected (2.00%)
+
+Column: accountNumber
+- IQR method outliers: 0 (0.00%)
+- Z-score method outliers: 0 (0.00%)
+Recommendations:
+  * No significant issues detected
+
+Column: customerId
+- IQR method outliers: 0 (0.00%)
+- Z-score method outliers: 0 (0.00%)
+Recommendations:
+  * No significant issues detected
+
+Column: creditLimit
+- IQR method outliers: 48781 (6.20%)
+- Z-score method outliers: 48781 (6.20%)
+Recommendations:
+  * Warning: High percentage of outliers detected (6.20%)
+
+Column: availableMoney
+- IQR method outliers: 58834 (7.48%)
+- Z-score method outliers: 25606 (3.26%)
+Recommendations:
+  * Warning: High percentage of outliers detected (7.48%)
+
+Column: transactionAmount
+- IQR method outliers: 42087 (5.35%)
+- Z-score method outliers: 17807 (2.26%)
+Recommendations:
+  * Warning: High percentage of outliers detected (5.35%)
+
+Column: posEntryMode
+- IQR method outliers: 34859 (4.43%)
+- Z-score method outliers: 34859 (4.43%)
+Recommendations:
+  * Moderate number of outliers detected (4.43%)
+
+Column: posConditionCode
+- IQR method outliers: 157167 (19.99%)
+- Z-score method outliers: 0 (0.00%)
+Recommendations:
+  * Warning: High percentage of outliers detected (19.99%)
+
+Column: cardCVV
+- IQR method outliers: 0 (0.00%)
+- Z-score method outliers: 0 (0.00%)
+Recommendations:
+  * No significant issues detected
+
+Column: enteredCVV
+- IQR method outliers: 0 (0.00%)
+- Z-score method outliers: 0 (0.00%)
+Recommendations:
+  * No significant issues detected
+
+Column: cardLast4Digits
+- IQR method outliers: 0 (0.00%)
+- Z-score method outliers: 0 (0.00%)
+Recommendations:
+  * No significant issues detected
+
+Column: currentBalance
+- IQR method outliers: 69603 (8.85%)
+- Z-score method outliers: 18847 (2.40%)
+Recommendations:
+  * Warning: High percentage of outliers detected (8.85%)
